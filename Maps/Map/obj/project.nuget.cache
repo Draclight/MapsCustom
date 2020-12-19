@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mNa2rQ3cYqWZpplmvSxhKlH3a/lQJrEShC0m+OCG2PneqDEGc/isUf+lJL8zyZdDuB+ooGARuumL4fY+XtwUKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\remyp\\Google Drive\\MIAGE\\S1\\INFO_09 -INTERFACES HOMME MACHINE\\maps\\Maps\\Map\\Map.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\remyp\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\remyp\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}
