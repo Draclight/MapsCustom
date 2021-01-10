@@ -14,8 +14,7 @@
     <body>
         <div id='map'></div>
         
-        <button onclick="affichage()">   Show altitude curve...</button>
-        <div class="container-fluid" id="canvas" hidden="hidden">
+        <div class="container-fluid hide" id="canvas" hidden="hidden">
             <div class="card lena-card no-border hover-shadow">
                 <h2>Altitude curve :</label>                    
                 </div>
@@ -25,7 +24,7 @@
             </div>
         </div>
 
-        <div id="snackbar">No starting point or destination sets</div>
+        <div id="snackbar" onclick="affichage()">Click here to show altitude curve...</div>
 		
         <!-- Fichiers JS -->
         <script src="https://api.mapbox.com/mapbox-gl-js/v2.0.1/mapbox-gl.js"></script>
