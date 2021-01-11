@@ -115,6 +115,8 @@ function affichage(){
             }
         }
     });
+
+    window.scrollTo(0, findPosition(document.getElementById("canvas")));
 }
 
 function showCanvas(){
@@ -143,4 +145,14 @@ function snackbarHide() {
 
     // Add the "show" class to DIV
     x.className = "hide";
+}
+
+function findPosition(obj) { 
+    var currenttop = 0; 
+    if (obj.offsetParent) { 
+        do { 
+            currenttop += obj.offsetTop; 
+        } while ((obj = obj.offsetParent)); 
+        return [currenttop]; 
+    } 
 }
